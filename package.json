@@ -1,0 +1,30 @@
+{
+  "name": "taskit",
+  "version": "1.0.0",
+  "description": "contract a list of jobers for you",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danbatista/TaskiT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danbatista/TaskiT/issues"
+  },
+  "homepage": "https://github.com/danbatista/TaskiT#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.0",
+    "mongoose": "^5.8.1",
+    "mongoose-paginate": "^5.0.3",
+    "mysql": "^2.17.1",
+    "npm": "^6.13.4",
+    "require-dir": "^1.2.0"
+  }
+}
